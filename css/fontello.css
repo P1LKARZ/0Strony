@@ -54,26 +54,26 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 
-.i-github-circled:before { content: '\e800'; padding-top:50px ;font-size: 200px;text-align: center;transition: ease-in 2s;}
-.i-github-circled:hover:before { content: '\e800';  ; color: black;transform: scale(1.15);}
+.i-github-circled:before { content: '\e800'; padding-top:50px ;font-size: 200px;text-align: center;transition: ease-in-out 1.2s;}
+#github:hover .i-github-circled:before { content: '\e800';  ; color: black;transform: scale(1.1) rotate(-360deg) translateX(-30px) translateY(-30px);}
 
 
 
 /* '' */
-.i-mail:before { content: '\e802';padding-top:50px ;font-size: 200px;text-align: center; transition: ease-in-out 2s;} /* '' */
-.i-mail:hover:before { content: '\e802';transform: scale(1.15); } /* '' */
+.i-mail:before { content: '\e802';padding-top:50px ;font-size: 200px;text-align: center; transition: ease-in-out 1.2s;} /* '' */
+#mail:hover .i-mail:before { content: '\e802';transform: scale(0.9) translateX(-30px) translateY(-30px)} /* '' */
 
 
 
-.i-youtube-play:before { content: '\f16a'; padding-top:50px ;font-size: 200px;text-align: center;transition: ease-in-out 2s;} /* '' */
-.i-youtube-play:hover:before { content: '\f16a'; transform: scale(1.15);} /* '' */
+.i-youtube-play:before { content: '\f16a'; padding-top:50px ;font-size: 200px;text-align: center;transition: ease-in-out 1.2s;} /* '' */
+#yt:hover .i-youtube-play:before { content: '\f16a'; transform: scale(1.05) translateX(-30px) translateY(-30px);;} /* '' */
 
 
 
-.i-instagram:before { content: '\f16d';padding-top:50px ;font-size: 200px;text-align: center; transition: ease-in-out 2s; }
-.i-instagram:hover:before { content: '\f16d';transform: scale(1.15) ; }
+.i-instagram:before { content: '\f16d';padding-top:50px ;font-size: 200px;text-align: center; transition: ease-in-out 1.2s; }
+#ig:hover .i-instagram:before { content: '\f16d';transform: scale(1.15)  translateX(-30px) translateY(-30px); }
 
 
 
-.i-facebook-squared:before { content: '\f308';padding-top:50px ;font-size: 200px;text-align: center; transition: all ease-in-out 2s;} /* '' */
-.i-facebook-squared:hover:before { content: '\f308';transform: scale(1.15); } /* '' */
+.i-facebook-squared:before { content: '\f308';padding-top:50px ;font-size: 200px;text-align: center; transition: all ease-in-out 1.2s;} /* '' */
+#fb:hover .i-facebook-squared:before { content: '\f308';transform: scale(1.15);transform: translateX(-20px); } /* '' */

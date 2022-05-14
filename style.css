@@ -207,9 +207,27 @@ h1
 {
     
     background-color:#6e5494 ;
+    
 
 
 }    
+#napis_github
+{
+    color: #333;
+    transition: ease-in-out 1.2s;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+}
+
+#github:hover #napis_github
+{
+    color: black;
+    font-size: 2em;
+    transform: translateX(-35px) translateY(-60px);
+    font-family:'Oswald', sans-serif ;
+    opacity:1;
+  
+}
 
 
 #ig
@@ -218,12 +236,35 @@ h1
     width: 100%;
     position: relative;
     height: 300px;
-    transition:all ease-in-out 5s;
+    transition:all ease-in-out 2s;
+    font-family:'Roboto', sans-serif;
 }
 #ig:hover
 {
     background-color: #E1306C;
+    
+
+    
 }
+
+
+#napis_ig
+{
+    color: #333;
+    transition: ease-in-out 1.2s;
+    font-family: 'Euphoria Script', cursive;
+    font-size: 2em;
+}
+#ig:hover #napis_ig
+{
+    color: #fff;
+    font-size: 2em;
+    transform: translateX(-35px) translateY(-50px);
+    font-family:  'Euphoria Script', cursive;;
+}
+
+
+
 #fb
 {
     background-color: #333;
@@ -236,6 +277,24 @@ h1
 {
     background-color:#3b5998;
 }
+
+#napis_fb
+{
+    color: #333;
+    transition: ease-in-out 1.2s;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+}
+#fb:hover #napis_fb
+{
+    color: #fff;
+    font-size: 2em;
+    transform: translateX(-35px) translateY(-50px);
+    font-family:'Oswald', sans-serif ;
+}
+
+
+
 #yt
 {
     background-color: #333;
@@ -249,6 +308,24 @@ h1
 {
     background-color:#c4302b ;
 }
+
+
+#napis_yt
+{
+    color: #333;
+    transition: ease-in-out 1.2s;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+}
+#yt:hover #napis_yt
+{
+    color: #fff;
+    font-size: 2em;
+    transform: translateX(-35px) translateY(-100px);
+    font-family:'Oswald', sans-serif ;
+}
+
+
 #mail
 {
     background-color: #333 ;
@@ -260,6 +337,24 @@ h1
 #mail:hover
 {
     background-color: #db4a39;
+}
+
+#napis_mail
+{
+    color: #333;
+    transition: ease-in-out 1.2s;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    opacity: 0;
+}
+#mail:hover #napis_mail
+{
+    color: #fff;
+    font-size: 2em;
+    transform: translateX(-35px) translateY(-80px);
+    font-family:'Oswald', sans-serif ;
+    opacity:1;
+  
 }
 
 
