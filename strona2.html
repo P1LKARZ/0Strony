@@ -1,0 +1,106 @@
+<html lang="pl">
+<head >
+
+	<meta charset="utf-8"/>
+		<title>Gdzie grali polacy</title>
+			<meta name="keywords" content="informatyka, komputer, mysz"/> 
+				<meta name="description" content="strona o informatyce"/>
+					<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+						<link rel="stylesheet" href="index.css">
+                        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="kontener">
+		kontener
+		<div id="baner">
+
+		</div>
+		<div class="rozsuwane">
+			<ol>
+				<ol class="lista">
+					<li><a href="index.html">Strona Główna</a></li>
+					<li><a href="strona1.html">Strona 1</a>    
+						<ul>
+							<li>   <a href="#">Podstrona</a> <ul>
+								<li>
+									<a href="#">Podstrona</a>
+								</li>
+							</ul>
+
+							<li>   <a href="#">Podstrona</a> </li>
+
+						</ul>
+					</li>
+					<li><a href="strona2.html">Strona 2</a>
+					<ul>
+						<li>   <a href="#">Podstrona</a> </li>
+						<li>   <a href="#">Podstrona</a> </li>
+					</ul>
+				</li>
+
+					<li><a href="strona3.html">Strona 3</a>
+					<ul>
+						<li>   <a href="#">Podstrona</a> </li>
+						<li>   <a href="#">Podstrona</a> </li>
+
+					</ul>
+				</li>
+
+
+					<li><a href="strona4.html">Strona 4</a>
+					<ul>
+						<li>   <a href="#">Podstrona</a> </li>
+						<li>   <a href="#">Podstrona</a> </li>
+
+					</ul>
+				</li>
+
+				</ol>
+		</div>
+			<div id="navi">
+
+            <br><i>strona główna</i> sie rozwija
+			</div>
+			<div id="menu">
+			
+                <p id="napis_menu">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis metus tellus, auctor in malesuada ac, ullamcorper a turpis. Sed rutrum a nisi quis semper. Morbi euismod elit mauris, eget euismod orci semper id. Nullam quis felis at elit dignissim ornare et quis purus. Vivamus tempor nisi id sapien suscipit, eget accumsan ipsum cursus. Curabitur ac sem maximus, aliquam ex mattis, vehicula quam. Mauris in porttitor dolor. Curabitur quis tincidunt nisi. Integer sit amet urna vel sapien tincidunt molestie. Integer volutpat, quam non fringilla pretium, elit lectus semper ipsum, vitae mollis nisl neque non odio. Cras viverra interdum diam ac malesuada. Aliquam erat volutpat. Nam massa nisi, tempus et ipsum ac, rhoncus rhoncus nisi. Phasellus ullamcorper gravida enim at ultrices. Maecenas egestas metus a volutpat tincidunt.
+Aliquam erat volutpat. Fusce quis iaculis lorem. In ac felis at nulla porta condimentum. Praesent in tristique elit. Duis pharetra risus a arcu molestie, nec vulputate nulla ornare. Suspendisse lacinia metus in vulputate imperdiet. Fusce faucibus gravida nisl, eu aliquam mi auctor eget. In et felis sed augue porta dapibus. Donec et tempus arcu. Curabitur ullamcorper vehicula diam non vulputate. Aliquam risus sem, mattis iaculis ipsum vel, euismod egestas diam. Vivamus egestas finibus eros, vitae aliquam orci.
+
+                </p>
+			</div>
+			<a href="https://betfan.pl/zaklady-bukmacherskie" target="_blank">	<div id="reklama"><br>
+                    
+				</div></a>
+					<div id="stopka">
+                        &copy;Marcel Żak
+					</div>
+	</div>
+	<script src="jquery-3.6.0.min.js"></script>
+	<script>
+
+		$(document).ready(function() {
+		var NavY = $('.rozsuwane').offset().top;
+		 
+		var stickyNav = function(){
+		var ScrollY = $(window).scrollTop();
+			  
+		if (ScrollY > NavY) { 
+			$('.rozsuwane' ).addClass('sticky');
+		} else {
+			$('.rozsuwane').removeClass('sticky'); 
+		}
+		};
+		 
+		stickyNav();
+		 
+		$(window).scroll(function() {
+			stickyNav();
+		});
+		});
+		
+	</script>
+	
+</body>
