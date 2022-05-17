@@ -97,6 +97,10 @@ ol
     transform: skew(-2deg);
 
 }
+ol.open
+{
+    max-height: 200px;
+}
 ol a
 {
     color: white;
@@ -109,6 +113,7 @@ ol > li
     width: 150px;
     height: 40px;
     border-right: 1px solid #751b1b;
+    transition: all ease-in-out .5s;
 }
 ol > li:first-child
 {
@@ -117,6 +122,7 @@ ol > li:first-child
 ol > li:hover
 {
     background-color: #cf6969;
+    transform: scale(1.15);
 }
 ol > li:hover > a
 {
@@ -136,11 +142,12 @@ ol>li>ul>li
     background-color: #cf6969;
     position: relative;
     z-index: 100;
-    border-top: 1px dashed #751b1b;
+    border-top: 1px solid #751b1b;
 }
 ol>li>ul>li:hover
 {
     background-color: #c34f4f;
+    transform: scale(1.05);
 }
 ol>li>ul>li>a:hover
 {
@@ -160,6 +167,7 @@ ol > li > ul >li >ul
 }ol>li>ul>li:hover>ul
 {
     display: block;
+    
 }
 ol>li:hover>ul
 {
