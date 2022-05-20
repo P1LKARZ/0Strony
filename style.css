@@ -15,20 +15,22 @@ body
         border-radius:  20px  20px 0 0;
         
     }
+
 #baner
 {
-    background-color: #c34f4f;
+    background-color:  #55cca2;
     text-align: center;
     height: 70px;
     width: auto;
-    background-image: URL(baner.png);
+    background-image: URL(banerek.png);
     background-repeat:no-repeat;
     background-position: center;
     margin: 0;
+    padding-top: 10px;
 }
 .rozsuwane
 {
-    background-color: #c34f4f;
+    background-color: #55cca2;
     text-align: center;
     height:50px;
     width: auto;
@@ -38,169 +40,13 @@ body
 #navi
 {
     color:white;
-	background-color: #101010;
+	background-color: ;
     float: left;
     text-align: center;
     min-height:1500px;
     width: 20%;
 	font-size:16pt;
 }
-#menu
-{
-    background-color: #303030;
-    float: left;
-    color: white;
-    text-align: center;
-    min-height:1500px;
-    width:60%;
-
-}
-#reklama
-{
-    background-color: #101010;
-    float: left;
-    background-image:url(pudzian.jpg) ;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height:1500px;
-    width: 20%;
-    background-attachment:local;
-    
-   
-}
-
-    #stopka
-{
-    background-color:#404014;
-    clear: both;
-    padding:1%;
-    text-align: center;
-    min-height: 2.5%;
-    border-radius:0 0 20px  20px ;
-
-}
-a
-{
-	text-decoration:none;
-	color:white;
-    
-}
-ol
-{
-    margin: 0;
-    padding:0;
-    list-style-type:none;
-    font-size:18px;
-    height:35px;
-    line-height:200%;
-    display:inline-block;
-    transform: skew(-2deg);
-
-}
-ol.open
-{
-    max-height: 200px;
-}
-ol a
-{
-    color: white;
-    text-decoration: none;
-    display: block;
-}
-ol > li
-{
-    float: left;
-    width: 150px;
-    height: 40px;
-    border-right: 1px solid #751b1b;
-    transition: all ease-in-out .5s;
-}
-ol > li:first-child
-{
-    border-left: 1px solid #751b1b;
-}
-ol > li:hover
-{
-    background-color: #cf6969;
-    transform: scale(1.15);
-}
-ol > li:hover > a
-{
-    color: #451717;
-}
-ol > li > ul
-{
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    height: 40px;
-    display: none;
-
-}
-ol>li>ul>li
-{
-    background-color: #cf6969;
-    position: relative;
-    z-index: 100;
-    border-top: 1px solid #751b1b;
-}
-ol>li>ul>li:hover
-{
-    background-color: #c34f4f;
-    transform: scale(1.05);
-}
-ol>li>ul>li>a:hover
-{
-  color: #451717;
-}
-ol>li:hover>ul
-{
-    display: block;
-}
-ol > li > ul >li >ul
-{
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    height: 40px;
-    display: none;
-}ol>li>ul>li:hover>ul
-{
-    display: block;
-    
-}
-ol>li:hover>ul
-{
-	display:block;
-}
-#napis_menu
-{
-    text-indent: 40px;
-    text-align: justify;
-    color: 	#F0FFF0;
-    line-height: 25px;
-    font-weight: lighter;
-    padding: 20px;
-    font-family: 'Roboto', sans-serif;
-    font-size:20px ;
-
-
-    line-height: 2;
-    
-}
-h1
-{
-    color: #fafa;
-}
-.sticky
-{
-    width: 100%;
-    position: fixed;
-    left: 0%;
-    top: 0%;
-    z-index: 100;
-}
-    
 #github
 {
     
@@ -366,6 +212,161 @@ h1
   
 }
 
+
+#menu
+{
+    background-color: #303030               ;
+    float: left;
+    color: #fff;
+    text-align: center;
+    min-height:1500px;
+    width:60%;
+
+}
+h1
+{
+    color: #55cca2;
+}
+#napis_menu
+{
+    text-indent: 40px;
+    text-align: justify;
+    color: 	#fff;
+    line-height: 25px;
+    font-weight: lighter;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size:20px ;
+    line-height: 2;
+    
+}
+#reklama
+{
+    background-color: #101010;
+    float: left;
+    background-image:url(pudzian.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:1500px;
+    width: 20%;
+    background-attachment:local;
+    
+   
+}
+
+    #stopka
+{
+    background-color:#006d77;
+    clear: both;
+    padding:1%;
+    text-align: center;
+    min-height: 2.5%;
+    border-radius:0 0 20px  20px ;
+
+}
+a
+{
+	text-decoration:none;
+	color:white;
+    
+}
+ol
+{
+    margin: 0;
+    padding:0;
+    list-style-type:none;
+    font-size:18px;
+    height:35px;
+    line-height:200%;
+    display:inline-block;
+    transform: skew(-2deg);
+
+}
+ol a
+{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+ol > li
+{
+    float: left;
+    width: 150px;
+    height: 40px;
+    border-right: 1px solid #77eec4;
+    transition: ease-in-out .5s ;
+}
+ol > li:first-child
+{
+    border-left: 1px solid #77eec4;
+}
+ol > li:hover
+{
+    background-color: #44bb9a;
+    transform: scale(1.15);
+    
+}
+ol > li:hover > a
+{
+    color: whitesmoke;
+}
+ol > li > ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 40px;
+    display: none;
+
+}
+ol>li>ul>li
+{
+    background-color: #66ddb3;
+    position: relative;
+    z-index: 100;
+    border-top: 1px solid #77eec4;
+    transition: ease-in .3s ;
+}
+ol>li>ul>li:hover
+{
+    background-color: #33aa80;
+    transform: scale(1.15);
+    
+}
+ol>li>ul>li>a:hover
+{
+  color: whitesmoke;
+}
+ol>li:hover>ul
+{
+    display: block;
+}
+ol > li > ul >li >ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 40px;
+    display: none;
+}ol>li>ul>li:hover>ul
+{
+    display: block;
+}
+ol>li:hover>ul
+{
+	display:block;
+}
+
+
+.sticky
+{
+    width: 100%;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    z-index: 100;
+}
+    
 
 
 
