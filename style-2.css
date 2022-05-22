@@ -1,0 +1,43 @@
+
+.kadra-box
+{
+    width: 25%;
+    float: left;
+    font-size: 18px;
+    margin-bottom: 100px;
+}
+.kadra-box img 
+{
+    margin: 0px;
+    border-radius: 50%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(215, 215, 215);
+    border-image: initial;
+}
+#napastnicy>.kadra-box
+{
+    width: 20%;
+}
+#obroncy>.kadra-box
+{
+    width: 16%;
+}
+
+#navi,#reklama,#menu
+{
+    min-height: 1850px;
+}
+#KONTENER
+{
+    background-color: #333;
+}
+img
+{
+    transition:  1s cubic-bezier(0.63, 0.28, 0.05, 0.62);
+}
+img:hover
+{
+   transform:scale(1.5);
+   overflow: hidden;
+}
