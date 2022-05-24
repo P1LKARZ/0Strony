@@ -1,0 +1,164 @@
+<!-- UTWORZYC PLIKI KTORE SA W LINKACH PRZY GLOWNYM MENU -->
+<!-- UTWORZYC PLIKI KTORE SA W LINKACH PRZY GLOWNYM MENU -->
+<!-- UTWORZYC PLIKI KTORE SA W LINKACH PRZY GLOWNYM MENU -->
+<!DOCTYPE html>
+<html lang="pl">
+<head >
+
+	<meta charset="utf-8"/>
+		<title>STRONA GŁÓWNA</title>
+			<meta name="keywords" content="informatyka, komputer, mysz"/> 
+				<meta name="description" content="strona o informatyce"/>
+					<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+						<link rel="stylesheet" href="./style.css">
+                        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/fontello.css"type="text/css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Euphoria+Script&family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="kontener">
+
+		
+
+		
+		
+		<div id="baner">
+	
+		</div>
+
+
+
+<!-- menu rozsuwane -->
+		<div class="rozsuwane">
+			<ol>
+				<ol class="lista">
+				
+					<li><a href="logowanie.html" target="_blank">Logowanie</a>
+					
+					</li>
+					<li><a href="index.html">Strona Główna</a></li>
+
+					<li>Strzelcy
+						<ul>
+							
+							<li>   <a href="6bramek.html">6 bramek</a> </li>
+							<li>   <a href="7bramek.html">7 bramek</a> </li>
+							<li>   <a href="10bramek.html">10 bramek</a> </li>
+	
+						</ul>
+					</li>
+					<li> Osiągnięcia    
+						<ul>
+							<li>   <a href="RFN.html" target="_blank">RFN 1974</a> </li>
+							
+
+							<li>   <a href="hiszpania.html" target="_blank">Hiszpania 1982</a> </li>
+
+						</ul>
+					</li>
+				
+
+					
+
+
+					<li><a href="obecnie.html" target="_blank">Obecnie</a>
+					
+				</li>
+
+				</ol>
+		</div>
+		<!-- lewa strona -->
+		<div id="navi">
+
+
+			<div id="github">
+	<a href="https://github.com/P1LKARZ/0Strony"target="_blank">	
+		<i class="i-github-circled"></i>
+	</a>
+	<p id="napis_github">Github</p>
+</div>
+			<!-- 1 -->
+			<div id="ig">
+				
+				<a href="https://www.instagram.com/1marcel3/"target="_blank">
+				<i class="i-instagram"></i></a>
+				<p id="napis_ig">Instagram</p>
+				
+
+			</div>
+<!-- 2 -->
+			<div id="fb">
+				<a href="https://www.facebook.com/p1lk4rz/"target="_blank">
+				<i class="i-facebook-squared"></i></a>
+				<p id="napis_fb">Facebook</p>
+			</div>
+			
+<!-- 3 -->
+			<div id="yt">
+				<a href="https://www.youtube.com"target="_blank">
+				<i class="i-youtube-play"></i>
+				<p id="napis_yt">Youtube</p>
+			</a>
+			</div>
+<!-- 4 -->
+			<div id="mail">
+				<a href="mailto:pagoknutgranaty123@gmail.com"target="_blank">
+				<i class="i-mail"></i></a>
+				<p id="napis_mail">Poczta</p>
+			</div>
+			
+		</div>
+
+<!-- menu -->
+
+			<div id="menu">
+               
+				<p class="napis_menu">LOGOWANIE</p>
+                <form>
+
+                    <input type="text" placeholder="login" onfocus="this.placeholder=''"  onblur="this.placeholder='login'" >    <br><br> 
+                      
+                            <input type="password"placeholder="hasło"onfocus="this.placeholder=''"onblur="this.placeholder='hasło'"">    <br> 
+                                <input type="submit" value="zaloguj się" >
+            </form>
+			</div>
+		
+		<!-- reklama -->
+			<a href="https://betfan.pl/zaklady-bukmacherskie" target="_blank">	<div id="reklama"><br>
+                    
+				</div></a>
+					<div id="stopka">
+                        &copy;Marcel Żak
+					</div>
+	</div>
+	<script src="jquery-3.6.0.min.js"></script>
+	<script>
+
+		$(document).ready(function() {
+		var NavY = $('.rozsuwane').offset().top;
+		 
+		var stickyNav = function(){
+		var ScrollY = $(window).scrollTop();
+			  
+		if (ScrollY > NavY) { 
+			$('.rozsuwane' ).addClass('sticky');
+		} else {
+			$('.rozsuwane').removeClass('sticky'); 
+		}
+		};
+		 
+		stickyNav();
+		 
+		$(window).scroll(function() {
+			stickyNav();
+		});
+		});
+		
+	</script>
+	
+</body>
+</html>
